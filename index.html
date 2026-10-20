@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Rajamangala Seat View</title>
+  <style>
+    * { margin: 0; box-sizing: border-box; }
+    html, body { height: 100%; overflow: hidden; font-family: system-ui, "Sarabun", sans-serif; }
+    #app { position: fixed; inset: 0; }
+    canvas { display: block; }
+    #overlay { position: fixed; inset: 0; pointer-events: none; }
+    #overlay > * { pointer-events: auto; }
+  </style>
+</head>
+<body>
+  <div id="app"><canvas id="scene"></canvas></div>
+  <div id="overlay"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

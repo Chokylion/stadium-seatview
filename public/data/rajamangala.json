@@ -1,0 +1,47 @@
+{
+  "venue": {
+    "name": { "th": "ราชมังคลากีฬาสถาน", "en": "Rajamangala National Stadium" },
+    "model": "stadium.glb",
+    "capacityConcert": 65000
+  },
+  "stage": { "position": [0, 0, -72], "facing": [0, 0, 1] },
+  "_source": "Zone layout, names and prices from the official BLACKPINK WORLD TOUR <DEADLINE> IN BANGKOK 2025 seat map (ThaiTicketMajor). Floor is standing/seated per package; 9 price tiers 2,800-8,800 THB.",
+  "zones": [
+    { "id": "PIT", "name": { "th": "PIT (ยืน)", "en": "PIT (Standing)" }, "color": "#6e1226", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "BLINK PIT", "priceTHB": 8800,
+      "seatRules": { "shape": "floor", "rowCount": 8, "seatsPerRow": 16, "originZ": -64, "dirZ": 1, "centerX": 0, "width": 22, "rowGap": 1.4, "rowRise": 0, "baseHeight": 0.2, "eyeHeight": 1.5, "aisles": [1, 8, 16], "stairs": [1, 16], "exits": [8] } },
+
+    { "id": "A_L", "name": { "th": "A1–A3", "en": "A1–A3" }, "color": "#2f43a0", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Floor", "priceTHB": 6800,
+      "seatRules": { "shape": "floor", "rowCount": 9, "seatsPerRow": 15, "originZ": -64, "dirZ": 1, "centerX": -27, "width": 22, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 8, 15], "stairs": [1, 15], "exits": [8] } },
+    { "id": "A_R", "name": { "th": "A4–A6", "en": "A4–A6" }, "color": "#2f43a0", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Floor", "priceTHB": 6800,
+      "seatRules": { "shape": "floor", "rowCount": 9, "seatsPerRow": 15, "originZ": -64, "dirZ": 1, "centerX": 27, "width": 22, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 8, 15], "stairs": [1, 15], "exits": [8] } },
+
+    { "id": "V", "name": { "th": "VIP (โซน V)", "en": "VIP (Zone V)" }, "color": "#9aa1ac", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "BLINK Package", "priceTHB": 8800,
+      "seatRules": { "shape": "floor", "rowCount": 10, "seatsPerRow": 18, "originZ": -50, "dirZ": 1, "centerX": 0, "width": 26, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 9, 18], "stairs": [1, 18], "exits": [9] } },
+    { "id": "B_L", "name": { "th": "B1–B2", "en": "B1–B2" }, "color": "#2f43a0", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Floor", "priceTHB": 6800,
+      "seatRules": { "shape": "floor", "rowCount": 10, "seatsPerRow": 12, "originZ": -50, "dirZ": 1, "centerX": -34, "width": 18, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 6, 12], "stairs": [1, 12], "exits": [6] } },
+    { "id": "B_R", "name": { "th": "B8–B9", "en": "B8–B9" }, "color": "#2f43a0", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Floor", "priceTHB": 6800,
+      "seatRules": { "shape": "floor", "rowCount": 10, "seatsPerRow": 12, "originZ": -50, "dirZ": 1, "centerX": 34, "width": 18, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 6, 12], "stairs": [1, 12], "exits": [6] } },
+
+    { "id": "B_C", "name": { "th": "B3–B7", "en": "B3–B7" }, "color": "#cc2233", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Floor", "priceTHB": 7800,
+      "seatRules": { "shape": "floor", "rowCount": 10, "seatsPerRow": 38, "originZ": -34, "dirZ": 1, "centerX": 0, "width": 56, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 13, 26, 38], "stairs": [1, 38], "exits": [13, 26] } },
+    { "id": "C", "name": { "th": "C1–C6", "en": "C1–C6" }, "color": "#cc2233", "tier": "floor", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Floor", "priceTHB": 7800,
+      "seatRules": { "shape": "floor", "rowCount": 10, "seatsPerRow": 50, "originZ": -18, "dirZ": 1, "centerX": 0, "width": 76, "rowGap": 1.4, "rowRise": 0.04, "baseHeight": 0.2, "eyeHeight": 1.15, "aisles": [1, 17, 34, 50], "stairs": [1, 50], "exits": [17, 34] } },
+
+    { "id": "N1", "name": { "th": "N1 (อัฒจันทร์ข้าง ล่าง)", "en": "N1 · Side Lower" }, "color": "#29a3d4", "tier": "lower", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Side", "priceTHB": 3300,
+      "seatRules": { "shape": "bowl", "rowCount": 18, "seatsPerRow": 96, "angleStartDeg": -50, "angleEndDeg": 50, "innerRadiusX": 50, "innerRadiusZ": 92, "rowDepth": 0.85, "rowRise": 0.5, "baseHeight": 2, "eyeHeight": 1.15, "aisles": [1, 48, 96], "stairs": [1, 96], "exits": [48] } },
+    { "id": "N2", "name": { "th": "N2 (อัฒจันทร์ข้าง บน)", "en": "N2 · Side Upper" }, "color": "#e8742a", "tier": "upper", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Side", "priceTHB": 2800,
+      "seatRules": { "shape": "bowl", "rowCount": 22, "seatsPerRow": 104, "angleStartDeg": -50, "angleEndDeg": 50, "innerRadiusX": 70, "innerRadiusZ": 112, "rowDepth": 0.85, "rowRise": 0.55, "baseHeight": 16, "eyeHeight": 1.15, "aisles": [1, 52, 104], "stairs": [1, 104], "exits": [52] } },
+
+    { "id": "S1", "name": { "th": "S1 (อัฒจันทร์ข้าง ล่าง)", "en": "S1 · Side Lower" }, "color": "#2e9e4f", "tier": "lower", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Side", "priceTHB": 3800,
+      "seatRules": { "shape": "bowl", "rowCount": 18, "seatsPerRow": 96, "angleStartDeg": 130, "angleEndDeg": 230, "innerRadiusX": 50, "innerRadiusZ": 92, "rowDepth": 0.85, "rowRise": 0.5, "baseHeight": 2, "eyeHeight": 1.15, "aisles": [1, 48, 96], "stairs": [1, 96], "exits": [48] } },
+    { "id": "S2", "name": { "th": "S2 (อัฒจันทร์ข้าง บน)", "en": "S2 · Side Upper" }, "color": "#e8742a", "tier": "upper", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Side", "priceTHB": 2800,
+      "seatRules": { "shape": "bowl", "rowCount": 22, "seatsPerRow": 104, "angleStartDeg": 130, "angleEndDeg": 230, "innerRadiusX": 70, "innerRadiusZ": 112, "rowDepth": 0.85, "rowRise": 0.55, "baseHeight": 16, "eyeHeight": 1.15, "aisles": [1, 52, 104], "stairs": [1, 104], "exits": [52] } },
+
+    { "id": "E1", "name": { "th": "E1 (ฝั่งตรงข้ามเวที ล่าง)", "en": "E1 · Far End Lower" }, "color": "#e86ab0", "tier": "lower", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Far End", "priceTHB": 5800,
+      "seatRules": { "shape": "bowl", "rowCount": 16, "seatsPerRow": 70, "angleStartDeg": 50, "angleEndDeg": 130, "innerRadiusX": 50, "innerRadiusZ": 92, "rowDepth": 0.85, "rowRise": 0.5, "baseHeight": 2, "eyeHeight": 1.15, "aisles": [1, 35, 70], "stairs": [1, 70], "exits": [35] } },
+    { "id": "E2", "name": { "th": "E2 (ฝั่งตรงข้ามเวที กลาง)", "en": "E2 · Far End Mid" }, "color": "#e8d23a", "tier": "upper", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Far End", "priceTHB": 4800,
+      "seatRules": { "shape": "bowl", "rowCount": 16, "seatsPerRow": 76, "angleStartDeg": 50, "angleEndDeg": 130, "innerRadiusX": 68, "innerRadiusZ": 110, "rowDepth": 0.85, "rowRise": 0.55, "baseHeight": 15, "eyeHeight": 1.15, "aisles": [1, 38, 76], "stairs": [1, 76], "exits": [38] } },
+    { "id": "E3", "name": { "th": "E3 (ฝั่งตรงข้ามเวที บน)", "en": "E3 · Far End Upper" }, "color": "#2e9e4f", "tier": "upper", "ticketUrl": "https://www.thaiticketmajor.com/", "priceBand": "Far End", "priceTHB": 3800,
+      "seatRules": { "shape": "bowl", "rowCount": 12, "seatsPerRow": 82, "angleStartDeg": 50, "angleEndDeg": 130, "innerRadiusX": 84, "innerRadiusZ": 126, "rowDepth": 0.9, "rowRise": 0.6, "baseHeight": 27, "eyeHeight": 1.15, "aisles": [1, 41, 82], "stairs": [1, 82], "exits": [41] } }
+  ]
+}
